@@ -16,11 +16,13 @@
     }
     
     .background-color-custom{
+        padding-bottom: 20px;
         background-color: #f2f2cd;
     }
 
     .paragraph{
-        padding: 0px 20px 0px 20px;
+        font-size: 20px;
+        padding: 0 20px;
     }
 
     /* section 1 */
@@ -32,7 +34,6 @@
     }
 
     section h2 {
-        margin-top: 10px;
         font-size: 32px;
     }
 
@@ -51,11 +52,8 @@
     }
 
     #screen{
+        margin-top: 25px;
         width: 35%;
-    }
-
-    .paragraph-section-1{
-        padding: 0px 20px 15px 20px;
     }
 
     /* section 2 */
@@ -82,13 +80,80 @@
 
 /*  media query 768> - 991< */
 @media screen and (min-width: 768px) and (max-width: 991px){
+    hr{
+        display: none;
+    }
 
+    .background-color-custom {
+        padding-bottom: 15px;
+        background-color: #f2f2cd;
+    }
+    
+    .paragraph{
+        font-size: 25px;
+        padding: 0px 20px;
+    }
+    .margin-section{
+        margin-top: 20px;
+    }
+   
+    h3{
+        font-size: 32px;
+        padding: 15px;
+    }
+
+    /* section 1 */
+    
+    h1{
+        margin-top: 15px;
+        font-size: 50px;
+    }
+
+    #maps{
+        margin-top: 30px;
+        width: 20%;
+    }
+
+    #screen{
+        width: 40%;
+    }
+
+    /* section 2 */
+    
+    h2{
+        margin-top: 15px;
+        margin-bottom: 35px;
+        font-size: 45px;
+    }
+
+    .img-section-2{
+
+        width: 50%;
+    }
+
+    #img-md-section-2{
+        margin-top: 20px;
+        width: 30%;
+    }
+
+    /* section 3 */
+    .img-section-3{
+        margin-top: 20px;
+        padding: 30px;
+        border-radius: 50%;
+        width: 25%;
+        background-color: #428bca;
+    }
+    #img-md-section-3{
+        width: 15%;
+    }
+   
 }
 
 
 /*  media query 992> */
 @media screen and (min-width:992px){
-    
+
     main {
        margin-top: 100px;
     }
@@ -130,10 +195,6 @@
         width: 65%;
     }
 
-    .paragraph-section-1{
-        padding: 0px 10px;
-    }
-
     /* section 2 */
 
     .img-section-2{
@@ -144,11 +205,10 @@
 
 
     .img-section-3{
-        background-color: #428bca;
         padding: 30px;
-        
         border-radius: 50%;
         width: 25%;
+        background-color: #428bca;
     }
     
 
