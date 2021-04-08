@@ -7,7 +7,6 @@
 .text-center{
     text-align: center;
 }
-
 /* media query 767< */
 @media screen and (max-width: 767px){
     .container {
@@ -25,7 +24,6 @@
     }
 
     /* section 1 */
-
     h1 {
         padding-top: 15px;
         margin-bottom: 15px;
@@ -45,7 +43,6 @@
     }
 
     /* section 1 */
-
     #maps {
         width: 25%;
     }
@@ -56,14 +53,12 @@
     }
 
     /* section 2 */
-
     .img-section-2 {
         margin-top: 20px;
         width: 25%;
     }
 
      /* section 3 */
- 
     .margin-section {
         margin-top: 15px;
     }
@@ -76,9 +71,9 @@
         background-color: #428bca;
     }
 }
-
 /*  media query 768> - 991< */
 @media screen and (min-width: 768px) and (max-width: 991px){
+
     .background-color-custom {
         padding-bottom: 15px;
         background-color: #f2f2cd;
@@ -103,7 +98,6 @@
     }
 
     /* section 1 */
-    
     h1 {
         margin-top: 15px;
         font-size: 50px;
@@ -120,7 +114,6 @@
     }
 
     /* section 2 */
-    
     h2 {
         margin-top: 15px;
         margin-bottom: 35px;
@@ -149,9 +142,7 @@
     #img-md-section-3 {
         width: 15%;
     }
- 
 }
-
 /*  media query 992> */
 @media screen and (min-width:992px){
 
@@ -182,7 +173,6 @@
     }
 
     /* section 1 */
-
     section h1 {
         margin-bottom: 18px;
         font-size: 32px;
@@ -197,21 +187,16 @@
     }
 
     /* section 2 */
-
     .img-section-2 {
         width: 60%;
     }
 
     /* section 3 */
-
-
     .img-section-3 {
         padding: 30px;
         border-radius: 50%;
         width: 25%;
         background-color: #428bca;
     }
-    
-
 }
 

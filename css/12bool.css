@@ -91,7 +91,6 @@
         margin-left: calc((100% / 12) * 11 );
     }
 }
-
 /* middle */
 @media screen and (min-width: 768px) and (max-width: 991px)  {
    
@@ -168,9 +167,7 @@
     }
     
 }
-
 /* large */
-
 @media screen and (min-width: 992px)  {
     /* columns */
     .col-lg-1 {
