@@ -4,11 +4,71 @@
 }
 
 /* align center */
-.text-center{
+body{
     text-align: center;
 }
+
+main {
+    margin-top: 100px;
+}
+
+ section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+ h3 {
+    font-size: 20px;
+    padding: 15px;
+}
+
+ hr {
+    margin: 15px;
+}
+
+.background-color-2-3 {
+    background-color: #f9f9f9;
+}
+
+ .margin-section {
+    margin-top: 90px;
+}
+
+ /* section 1 */
+section h1 {
+    margin-bottom: 18px;
+    font-size: 32px;
+}
+
+#maps {
+    width: 40%;
+}
+
+#screen {
+    width: 65%;
+}
+
+/* section 2 */
+.img-section-2 {
+    width: 60%;
+}
+
+ /* section 3 */
+.img-section-3 {
+    padding: 30px;
+    border-radius: 50%;
+    width: 25%;
+    background-color: #428bca;
+}
+
 /* media query 767< */
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
+    main{
+        margin: 0;
+    }
+    .background-color-2-3 {
+        background-color: white;
+    }
     .container {
         width: 100%;
     }
@@ -72,11 +132,18 @@
     }
 }
 /*  media query 768> - 991< */
-@media screen and (min-width: 768px) and (max-width: 991px){
+@media screen and (min-width: 768px) and (max-width: 991px) {
 
+    main{
+        margin: 0;
+    }
     .background-color-custom {
         padding-bottom: 15px;
         background-color: #f2f2cd;
+    }
+
+    .background-color-2-3 {
+        background-color: white;
     }
     
     .paragraph {
@@ -144,59 +211,8 @@
     }
 }
 /*  media query 992> */
-@media screen and (min-width:992px){
+@media screen and (min-width:992px) {
 
-    main {
-       margin-top: 100px;
-    }
-
-    section h2 {
-        font-size: 32px;
-        margin-bottom: 20px;
-    }
-
-    h3 {
-        font-size: 20px;
-        padding: 15px;
-    }
-
-    hr {
-        margin: 15px;
-    }
-
-    .background-color-1-3 {
-        background-color: #f9f9f9;
-    }
-
-    .margin-section {
-        margin-top: 90px;
-    }
-
-    /* section 1 */
-    section h1 {
-        margin-bottom: 18px;
-        font-size: 32px;
-    }
-
-    #maps {
-        width: 40%;
-    }
-
-    #screen {
-        width: 65%;
-    }
-
-    /* section 2 */
-    .img-section-2 {
-        width: 60%;
-    }
-
-    /* section 3 */
-    .img-section-3 {
-        padding: 30px;
-        border-radius: 50%;
-        width: 25%;
-        background-color: #428bca;
-    }
+    
 }
 
